@@ -15,5 +15,7 @@ def anderefunctie():
 def lekkeroptellen(getal1, getal2):
     return dinsdag.optellen(int(getal1), int(getal2))
 
-
+@app.route("/volgende")   # endpoints   REST
+def volgende():
+    return dinsdag.volgendefunctie()
 
