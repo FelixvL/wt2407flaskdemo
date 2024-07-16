@@ -9,9 +9,9 @@ def optellen(nummer1, nummer2):
 
 def volgendefunctie():
     mydb = mysql.connector.connect(
-    host="localhost",  #port erbij indien mac
-    user="root",
-    password="root",
+    host="databasewt.mysql.database.azure.com",  #port erbij indien mac
+    user="felixadmin",
+    password="abcd1234ABCD!@#$",
     database="abc"
     )
 
